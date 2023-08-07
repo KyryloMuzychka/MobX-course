@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper__counter {
+  display: flex;  
+  align-items: center;
+  justify-content: center; 
+}
+
+.counter {
+  padding: 30px;
+  margin: 20px;
+  border: 2px solid grey;
+  border-radius: 4px;  
+  width: 300px;
+}
+
+.counter h1 {
+  text-align: center;
+}
+
+.btns {
+  margin-top: 20px;  
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  border-radius: 50px;
+  border: none;
+  background: orange;
+  height: 80px;
+  width: 80px;
+  font-size: 48px;  
+}
+
+.wrapper__todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper__todo button {
+  padding: 10px 20px;
+  color: violet;
+}
+
+.todo {
+  padding: 10px;
+  border: 2px solid green;
+  border-radius: 4px;
+  margin: 20px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo__name {
+  display: inline-flex;
+  align-items: center;
+}
+
+.todo button {  
+  color: red;
+  margin: 0;
+  height: 40px;
+  align-items: center;
+}
+
+.todo h2 {
+  margin: 0px 10px;
+  color: grey;
+}
